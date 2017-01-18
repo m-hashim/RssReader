@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RssReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_new">Add New Feed</string>
+    <string name="the_man">Who is the Man?</string>
+    <string name="url">Enter URL</string>
+    <string name="more">Feed Me More</string>
+    <string name="add">Do it</string>
+    <string name="enter_name">Enter identifier for entry</string>
+    <string name="back">Go back</string>
+</resources>

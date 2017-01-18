@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#581845"
+    android:textColor="#900C3F"
+    >
+
+    <TextView
+        android:id="@+id/txts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="@string/more"
+        android:layout_centerHorizontal="true"
+        android:textColor="#900C3F"
+        />
+
+    <EditText
+        android:id="@+id/urls"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/url"
+        android:textAlignment="center"
+        android:background="#FFC305"
+        android:textColor="#581845"
+        android:layout_below="@+id/txts"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
